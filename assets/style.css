@@ -10,6 +10,10 @@ body {
    
 }
 
+.btn {
+    color: rgba(129,150,143,1)
+}
+
 .header {
     padding: 30px;
     margin: 0px;

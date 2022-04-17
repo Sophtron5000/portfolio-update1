@@ -20,7 +20,11 @@ body {
         border-color: rgba(129,150,143,1) !important;
 }
 
-.header {
+.col-8 {
+    text-align: center;
+}
+
+/* .header {
     padding: 30px;
     margin: 0px;
     border: 0px;
@@ -46,7 +50,7 @@ h1{
 }
  .header nav {
      font-size: 20px;
- } 
+ }  */
 
  /* .row {
      display: flex;

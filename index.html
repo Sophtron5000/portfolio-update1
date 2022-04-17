@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,28 +17,32 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-3">
+            <div class="col-3 fixed-top">
                 <div class="row justify-content-center">
                     <h1 class="col-8">Sophia Custodia</h1>
                 </div>
                 <div class="row justify-content-center">
-                    <img class="photo col-6" src="./assets/images/me.jfif" alt="photo of sophia custodia" height="200px" width="200px">
+                    <img class="photo col-6" src="./assets/images/me.jfif" alt="photo of sophia custodia" height="200px"
+                        width="200px">
                 </div>
                 <div class="row justify-content-center">
                     <h2 class="col-8" id="about">About Me</h2>
                 </div>
                 <div class="row justify-content-center">
-                    <p class="col-8">I am a developing Coder</p>
+                    <p class="col-8">I am a developing Coder, born and raised in the Bay Area. My interest in wed
+                        development started in the age of MySpace, making edits to the HTML. From there my curiosity was
+                        peaked, I wanted to know how it was made and what it was that kept us all connected.</p>
                 </div>
                 <div class="row justify-content-center">
                     <div class="btn-group" role="group">
                         <a class="btn customBtn btn-outline-secondary" aria-current="page" href="#work">Body of Work</a>
-                        <a class="btn customBtn btn-outline-secondary" href="./SophiaCustodiaResume2020.docx.pdf" target="_blank">Resume</a>
+                        <a class="btn customBtn btn-outline-secondary" href="./SophiaCustodiaResume2020.docx.pdf"
+                            target="_blank">Resume</a>
                         <a class="btn customBtn btn-outline-secondary" href="#contact">Contact Me</a>
                     </div>
                 </div>
             </div>
-            <div class="col-9">
+            <div class="col-8">
                 <div id="work" class="row justify-content-center">
                     <h1 class="col-8">Body of Work</h1>
                 </div>
@@ -46,34 +51,52 @@
                         <h2>Here is some of my work</h1>
                     </div>
                 </div>
-                <div class="row justify-content-center">
-                        <div class="col-6">
-                            <a href="https://sophtron5000.github.io/lets-stay-in/" target="_blank"><img id="one" class="title" src="./assets/images/sophtron5000.github.io_lets-stay-in_.png" atl="let's stay in screen shot"
-                                    height="300px" width="655px" /></a>
-                            <div class="overlay">Project1</div>
-                        </div> 
-                </div>
-                <div class="row justify-content-center" id="secondary-imgs">
-                        <div class="col-3">
-                            <a href="https://sophtron5000.github.io/daily-planner/" target="_blank"><img class="two" src="./assets/images/sophtron5000.github.io_daily-planner_.png" atl="daily planner screen shot" height="300px"
-                                        width="300px" /></a>
-                                <div class="overlay">Project2</div>
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <a href="https://sophtron5000.github.io/lets-stay-in/" target="_blank"><img src="./assets/images/sophtron5000.github.io_lets-stay-in_cake.png" class="d-block w-100" alt="let's stay in screen shot"></a>
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>First slide label</h5>
+                          <p>Some representative placeholder content for the first slide.</p>
                         </div>
-                        <div class="col-3">
-                                <a href="https://sophtron5000.github.io/code-refactor/" target="_blank"><img two="two" src="./assets/images/sophtron5000.github.io_code-refactor_.png" atl="code refactor screen shot" height="300px"
-                                        width="300px" /></a>
-                                <div class="overlay">Project3</div>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="https://sophtron5000.github.io/daily-planner/" target="_blank"><img src="./assets/images/sophtron5000.github.io_daily-planner_.png" class="d-block w-100" alt="daily planner screen shot"></a>
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Second slide label</h5>
+                          <p>Some representative placeholder content for the second slide.</p>
                         </div>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="https://sophtron5000.github.io/code-refactor/" target="_blank"><img src="./assets/images/sophtron5000.github.io_code-refactor_.png" class="d-block w-100" alt="code refactor screen shot"></a>
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Third slide label</h5>
+                          <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
                 <div id="contact" class="row justify-content-center">
-                        <h2 class="col-6">Contact Me</h2>
+                    <h2 class="col-6">Contact Me</h2>
                 </div>
-                        <div class="row justify-content-center">
-                            <h3 class="details col-3">email@email.com</h3>
-                            <h3 class="details col-3">510-555-5555</h3>
-                            <h3 class="details col-3">Oakland, CA</h3>
-                        </div>
-                
+                <div class="row justify-content-center">
+                    <h3 class="details col-3">email@email.com</h3>
+                    <h3 class="details col-3">510-555-5555</h3>
+                    <h3 class="details col-3">Oakland, CA</h3>
+                </div>
             </div>
         </div>
     </div>

@@ -28,6 +28,15 @@ h1, h2, h3{
     text-align: center;
 }
 
+#offcanvasBottom {
+    background-color: rgba(233,214,236,1);
+}
+
+i {
+    font-size: 2rem;
+    color: rgba(129,150,143,1);
+}
+
 /* .header {
     padding: 30px;
     margin: 0px;

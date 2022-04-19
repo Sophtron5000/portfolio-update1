@@ -1,5 +1,5 @@
 * {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-family: 'Libre Baskerville', serif;
 }
 body {
     background-image: linear-gradient(rgba(233,214,236,1), rgba(232,204,191,1), rgba(207,185,165,1));
@@ -37,6 +37,19 @@ i {
     color: rgba(129,150,143,1);
 }
 
+h6{
+    font-size: 1rem;
+    color: rgba(129,150,143,1); 
+}
+
+p {
+    color: black;
+    /*background-color: antiquewhite;*/
+}
+
+.repo {
+    background-color: white
+}
 /* .header {
     padding: 30px;
     margin: 0px;
@@ -205,6 +218,10 @@ footer {
   @media screen and (max-width: 768px) {
     .row {
       flex-direction: column;
+    }
+
+    .col-8 {
+        width: 100vw;
     }
     
   }

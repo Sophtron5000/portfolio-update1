@@ -216,29 +216,30 @@ footer {
 } */
 
   @media screen and (max-width: 768px) {
-    .row {
+    .row1 {
       flex-direction: column;
       width: auto;
     }
-
+    .col-8 {
+        width: 100vw;
+    }
+    .col-3 {
+        width: 100vw;
+    }
    
-    
+    .contact{
+        width: 100vw;
+    }
   }
 
   @media screen and (max-width: 468px) {
-    .container-fluid {
+    .row1 {
       flex-direction: column;
-      width: 100%;
+      width: auto;
     }
-
+    .col-8 {
+        width: 100vw;
+    }
    
-    
-  }
-
-  @media screen and (max-width: 768px) {
-    #one {
-      width: 300px;
-      height: 300px;
-    }
     
   }
